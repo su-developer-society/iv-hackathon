@@ -44,7 +44,7 @@ export function Chat({
 }) {
   const { visibilityType } = useChatVisibility({
     chatId: id,
-    initialVisibilityType,
+    initialVisibilityType: 'public', // Changed from initialVisibilityType, forcing public
   });
 
   const { mutate } = useSWRConfig();
