@@ -221,7 +221,11 @@ export async function POST(request: Request) {
           }
         }
       },
-      onError: () => {
+      onError: (error: any) => {
+        if (error?.data?.error?.code === 'insufficient_quota') {
+          return 'I apologize, but I have reached my usage limit for now. Please check the API key plan and billing details.';
+        }
+
         return 'Oops, an error occurred!';
       },
     });
