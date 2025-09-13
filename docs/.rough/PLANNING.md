@@ -42,5 +42,9 @@ Specify a syntax for storing flash cards in plain text files that enable the fol
 - [ ] The app should allow you to ask an AI to quiz you on a deck of cards. <!-- Gamefication and LLM can do easy :)  -->
 - [ ] The web app should allow you to select a folder containing .md files. Each file will be treated as a deck of cards. <!-- Supabase -->
 - [ ] Session management , cache browser
+- [ ] Rate Limiting (Subscibe, load bar next to chatbar)
+- [ ] Add different file types -> (Look at that, pdf, pptx, md, and so on) (Docling)
+
+
 
 
