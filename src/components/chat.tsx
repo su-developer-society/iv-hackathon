@@ -1,3 +1,4 @@
+// src/components/chat.tsx
 'use client';
 
 import { DefaultChatTransport, type LanguageModelUsage } from 'ai';

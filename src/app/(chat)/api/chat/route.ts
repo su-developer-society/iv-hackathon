@@ -1,3 +1,4 @@
+// src/app/(chat)/api/chat/route.ts
 import {
   convertToModelMessages,
   createUIMessageStream,

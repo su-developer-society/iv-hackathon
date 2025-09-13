@@ -1,3 +1,4 @@
+// src/components/multimodal-input.tsx
 'use client';
 
 import type { LanguageModelUsage, UIMessage } from 'ai';

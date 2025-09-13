@@ -1,3 +1,4 @@
+// src/components/elements/prompt-input.tsx
 'use client';
 
 import { Button } from '@/components/ui/button';
