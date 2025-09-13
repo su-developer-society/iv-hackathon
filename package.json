@@ -1,5 +1,5 @@
 {
-  "name": "@supabase-community/vercel-ai-chatbot",
+  "name": "iv-hackathon",
   "version": "0.0.2",
   "private": true,
   "scripts": {
@@ -61,6 +61,7 @@
     "eslint-plugin-tailwindcss": "^3.12.0",
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
+    "supabase": "^2.40.7",
     "tailwind-merge": "^1.12.0",
     "tailwindcss": "^3.3.2",
     "tailwindcss-animate": "^1.0.5",
