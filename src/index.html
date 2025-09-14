@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Living Flashcards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Styling -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Marked.js for Markdown -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- MathJax for LaTeX -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1> Living Flashcards</h1>
+    <p class="tagline">Generate, study, and quiz yourself with math-powered AI flashcards.</p>
+
+    <!-- Input section -->
+    <div class="input-section">
+      <input id="topicInput" type="text" placeholder="Enter a topic, e.g. 'Derivative of sin(x)'" />
+      <button id="generateBtn">Generate Flashcard</button>
+      <button id="quizBtn">Quiz Me</button>
+      <button id="darkModeBtn">Toggle Dark Mode</button>
+    </div>
+
+    <!-- Flashcard display -->
+    <div id="flashcardContainer" class="flashcard">
+      <h2>Flashcard</h2>
+      <div id="flashcardContent">⚡ Your flashcard will appear here...</div>
+      <button id="copyBtn">📋 Copy to Clipboard</button>
+    </div>
+
+    <!-- Status / Errors -->
+    <div id="status" class="status"></div>
+  </div>
+
+  <!-- Main script -->
+  <script src="main.js"></script>
+</body>
+</html>
